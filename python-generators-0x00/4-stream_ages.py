@@ -8,8 +8,8 @@ def stream_user_ages():
     try:
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",        # change if needed
-            password="root",    # change if needed
+            user="alxprodevadmin",        # change if needed
+            password="alxprodev",    # change if needed
             database="ALX_prodev"
         )
         cursor = connection.cursor(dictionary=True)
